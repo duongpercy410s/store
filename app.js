@@ -64,7 +64,7 @@ app.get('/',async (req,res)=>{
     res.render('home',{model:results})
 })
 app.get('/new',(req,res)=>{
-    res.render('newProduct')
+    res.render('newproduct')
 })
 app.post('/search',async (req,res)=>{
     let searchText = req.body.txtSearch;
